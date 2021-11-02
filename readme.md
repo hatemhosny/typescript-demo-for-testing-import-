@@ -1,0 +1,2 @@
+# TypeScript Demo (for testing import)
+A [project](https://livecodes.io/#https://github.com/hatemhosny/typescript-demo-for-testing-import-/tree/gh-pages/src) created by [Hatem Hosny](https://github.com/hatemhosny) on [LiveCodes](https://livecodes.io).
