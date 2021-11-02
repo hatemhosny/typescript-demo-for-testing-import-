@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript Demo (for testing import)</title>
+    <script>
+      window.addEventListener('message', function (event) {
+        if (event.data.result) {
+          document.write(event.data.result);
+          document.close();
+        }
+      });
+    </script>
+  <link rel="stylesheet" href="./style.css"></head>
+  <body><div class="container">
+  <h1>Hello, <span id="title">World</span>!</h1>
+  <img class="logo" src="http://127.0.0.1:8080/livecodes/assets/templates/typescript.svg">
+  <p>You clicked <span id="counter">0</span> times.</p>
+  <button id="counter-button">Click me</button>
+</div>
+<script src="./script.js"></script></body></html>
